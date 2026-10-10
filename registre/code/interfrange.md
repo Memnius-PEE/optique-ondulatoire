@@ -19,5 +19,5 @@ commande: python3 travaux/interfrange.py
 
 <!-- /memnius:liens -->
 
-Toutes les longueurs sont en mètres (voir le piège noté dans `PASSATION.md`). La formule et l'exemple
+Toutes les longueurs sont en mètres (a en mètres, pas en millimètres). La formule et l'exemple
 chiffré sont expliqués dans `notes/fentes-young.md`.

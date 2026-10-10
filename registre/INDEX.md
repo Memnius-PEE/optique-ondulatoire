@@ -2,7 +2,7 @@
 
 _Généré par `memnius.py index` à partir des cartes de `registre/` et du journal `registre/decisions/`. Ne pas éditer : modifier ou ajouter une carte, puis relancer l'outil._
 
-7 cartes : 4 décisions, 1 code, 0 données, 2 sources.
+8 cartes : 5 décisions, 1 code, 0 données, 2 sources.
 
 ## Décisions
 
@@ -12,6 +12,7 @@ _Généré par `memnius.py index` à partir des cartes de `registre/` et du jour
 | [0002 — Calculs en Python sans dépendance](decisions/0002-calculs-sans-dependance.md) | Les scripts de `travaux/` n'utilisent que la bibliothèque standard tant qu'aucun tracé n'est nécessaire. | @Pwouette | 2026-09-26 |
 | [0003 — Passer au socle v2 et tenir le registre du projet](decisions/0003-passer-au-socle-v2.md) | Le projet suit désormais le socle v2 (règles C1–C11, gardes A1–A7). Chaque script, jeu de données ou source notable a sa carte dans `registre/`, et l'index `registre/INDEX.md` est régénéré à chaque changement. | @Pwouette | 2026-10-10 |
 | [0004 — Ranger le journal des décisions dans le registre](decisions/0004-decisions-dans-le-registre.md) | Le journal passe de `decisions/` à `registre/decisions/`, avec son historique : tout ce qui décrit le projet est dans `registre/`. Les entrées 0001 à 0003 sont déplacées telles quelles ; les chemins `decisions/` qu'elles citent désignent désormais `registre/decisions/`. | @Pwouette | 2026-10-10 |
+| [0005 — Suivre le socle v2 révisé](decisions/0005-socle-v2-revise.md) | Le projet suit le socle v2 révisé. PASSATION.md est retiré : ce qui reste à faire est dans le README, et le piège sur les unités est noté dans la carte `registre/code/interfrange.md`. `memnius.yaml` ne déclare plus de niveau. L'index du registre est désormais écrit par la CI sur chaque pull request… | @Pwouette | 2026-10-10 |
 
 ## Code
 
@@ -32,4 +33,4 @@ _Aucune carte pour l'instant._
 
 ## Qui a fait quoi
 
-- **@Pwouette** : décisions [0001](decisions/0001-adopter-le-socle.md), [0002](decisions/0002-calculs-sans-dependance.md), [0003](decisions/0003-passer-au-socle-v2.md), [0004](decisions/0004-decisions-dans-le-registre.md) ; code [interfrange](code/interfrange.md) ; sources [hecht-optics](sources/hecht-optics.md), [wikiversite-optique](sources/wikiversite-optique.md)
+- **@Pwouette** : décisions [0001](decisions/0001-adopter-le-socle.md), [0002](decisions/0002-calculs-sans-dependance.md), [0003](decisions/0003-passer-au-socle-v2.md), [0004](decisions/0004-decisions-dans-le-registre.md), [0005](decisions/0005-socle-v2-revise.md) ; code [interfrange](code/interfrange.md) ; sources [hecht-optics](sources/hecht-optics.md), [wikiversite-optique](sources/wikiversite-optique.md)
