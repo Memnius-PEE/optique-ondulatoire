@@ -3,9 +3,7 @@
 ## Comment vérifier
 
 ## Cases à cocher
-- [ ] `PASSATION.md` mis à jour si l'état du projet change (C9)
-- [ ] Code, données ou source ajoutés : carte dans `registre/` et index régénéré (C11)
+- [ ] Code, données ou source ajoutés : carte dans `registre/` (la CI régénère l'index) (C11)
 - [ ] Décision structurante : nouvelle entrée dans `registre/decisions/`, sans modifier les anciennes (C2)
-- [ ] Chiffres et faits sourcés ou marqués `[non vérifié]` (C5)
+- [ ] Chiffres et faits des livrables, cartes et décisions sourcés ou marqués `[non vérifié]` (C5)
 - [ ] Travail assisté par IA : oui / non (outil et modèle : …) ; commits avec `Assisted-by:` (C4)
-- [ ] Relu par quelqu'un d'autre que l'auteur, humain ou agent indépendant (C6)
