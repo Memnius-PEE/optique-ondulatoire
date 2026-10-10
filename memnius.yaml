@@ -1,0 +1,34 @@
+# Fiche d'identité du projet, lue par la garde A3 et le super-registre du groupe.
+# Schéma : https://github.com/Memnius-PEE/registre/blob/v2/schema/memnius.schema.json
+schema: memnius/2
+id: optique-ondulatoire
+titre: Optique ondulatoire
+resume: >-
+  Étudier interférences et diffraction de la lumière, des fentes d'Young aux réseaux,
+  avec des calculs simples et des manipulations faisables à la maison.
+statut: actif
+nature: etude
+domaines: [physique]
+mots_cles: [interferences, diffraction, fentes-young, reseaux]
+langue: fr
+mainteneurs:
+  - github: Pwouette
+    nom: Romain
+contribution:
+  ouverte: true
+  niveau_entree: facile
+outils: [python, markdown]
+agents:
+  politique: relecture-humaine
+liens:
+  projets: []
+  externes:
+    - titre: Cours d'optique ondulatoire (Wikiversité)
+      url: https://fr.wikiversity.org/wiki/Optique_ondulatoire
+socle:
+  version: v2
+  niveau: recommande
+  options: []
+licence: CC-BY-4.0
+visibilite: public
+cree_le: 2026-09-26
