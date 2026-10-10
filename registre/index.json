@@ -3,7 +3,7 @@
   "projet": "optique-ondulatoire",
   "titre": "Optique ondulatoire",
   "comptes": {
-    "decision": 4,
+    "decision": 5,
     "code": 1,
     "donnees": 0,
     "sources": 2
@@ -69,6 +69,23 @@
       "resume": "Le journal passe de `decisions/` à `registre/decisions/`, avec son historique : tout ce qui décrit le projet est dans `registre/`. Les entrées 0001 à 0003 sont déplacées telles quelles ; les chemins `decisions/` qu'elles citent désignent désormais `registre/decisions/`.",
       "ou": [
         "registre/decisions/0004-decisions-dans-le-registre.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-10-10",
+      "origine": [
+        "humain"
+      ]
+    },
+    {
+      "type": "decision",
+      "id": "decisions/0005",
+      "fichier": "registre/decisions/0005-socle-v2-revise.md",
+      "titre": "0005 — Suivre le socle v2 révisé",
+      "resume": "Le projet suit le socle v2 révisé. PASSATION.md est retiré : ce qui reste à faire est dans le README, et le piège sur les unités est noté dans la carte `registre/code/interfrange.md`. `memnius.yaml` ne déclare plus de niveau. L'index du registre est désormais écrit par la CI sur chaque pull request…",
+      "ou": [
+        "registre/decisions/0005-socle-v2-revise.md"
       ],
       "auteurs": [
         "Pwouette"
