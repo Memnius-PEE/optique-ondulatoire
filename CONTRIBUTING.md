@@ -16,7 +16,7 @@ sont décrites dans <https://github.com/Memnius-PEE/registre> ; voici l'essentie
 
 - `main` est protégée : tout passe par une pull request relue par une autre personne.
 - Avant de commencer, lisez la section 5 de `PASSATION.md` (ce qui reste à faire).
-- Une décision qui engage le projet s'écrit dans un nouveau fichier de `decisions/` ; on ne modifie jamais une décision publiée.
+- Une décision qui engage le projet s'écrit dans un nouveau fichier de `registre/decisions/` ; on ne modifie jamais une décision publiée.
 - Écrivez dans la langue du dépôt (champ `langue` de `memnius.yaml`) ; noms de fichiers en minuscules, sans accents ni espaces (`mon-fichier.md`).
 - Travail fait avec un agent IA : ajoutez `Assisted-by: <outil>` au message de commit.
 - Fichiers de plus de 10 Mo : refusés par la CI (garde A6) ; passez par Git LFS (configuré dans `.gitattributes`) ou le drive commun, décrit par une carte de `registre/donnees/`.

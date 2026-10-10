@@ -13,5 +13,11 @@ langage: python
 commande: python3 travaux/interfrange.py
 ---
 
+<!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
+- **Où :** [`travaux/interfrange.py`](../../travaux/interfrange.py)
+- **Liens :** [sources/hecht-optics](../sources/hecht-optics.md) · [decisions/0002](../decisions/0002-calculs-sans-dependance.md)
+
+<!-- /memnius:liens -->
+
 Toutes les longueurs sont en mètres (voir le piège noté dans `PASSATION.md`). La formule et l'exemple
 chiffré sont expliqués dans `notes/fentes-young.md`.
