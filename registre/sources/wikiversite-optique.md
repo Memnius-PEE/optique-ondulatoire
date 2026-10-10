@@ -9,3 +9,8 @@ statut: a-relire
 licence: CC-BY-SA
 url: https://fr.wikiversity.org/wiki/Optique_ondulatoire
 ---
+
+<!-- memnius:liens : bloc généré par « memnius.py index », ne pas éditer -->
+- **Où :** [`sources/liens.md`](../../sources/liens.md) · [fr.wikiversity.org](https://fr.wikiversity.org/wiki/Optique_ondulatoire)
+
+<!-- /memnius:liens -->

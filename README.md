@@ -31,8 +31,7 @@ Les règles communes à tous les projets sont dans [CONTRIBUTING.md](CONTRIBUTIN
 | Dossier | Contenu |
 |---|---|
 | `PASSATION.md` | état courant, prochaines étapes, pièges |
-| `decisions/` | une fiche par décision structurante (ce sont aussi les cartes de décision du registre) |
-| `registre/` | une carte par code, jeu de données ou source : qui l'a fait, où le trouver ; index dans [`registre/INDEX.md`](registre/INDEX.md) |
+| `registre/` | le journal des décisions (`registre/decisions/`) et une carte par code, jeu de données ou source : qui l'a fait, où le trouver ; index dans [`registre/INDEX.md`](registre/INDEX.md) |
 | `notes/` | notes de travail (`fentes-young.md`) |
 | `sources/` | références (`references.bib`, `liens.md`) |
 | `travaux/` | calculs (`interfrange.py`) |
