@@ -3,7 +3,7 @@
   "projet": "optique-ondulatoire",
   "titre": "Optique ondulatoire",
   "comptes": {
-    "decision": 5,
+    "decision": 6,
     "code": 1,
     "donnees": 0,
     "sources": 2
@@ -91,6 +91,23 @@
         "Pwouette"
       ],
       "date": "2026-10-10",
+      "origine": [
+        "humain"
+      ]
+    },
+    {
+      "type": "decision",
+      "id": "decisions/0006",
+      "fichier": "registre/decisions/0006-index-pousse-par-cle.md",
+      "titre": "0006 — L'index est poussé par la clé de déploiement du projet",
+      "resume": "La CI commite l'index du registre avec la clé de déploiement du projet (secret `MEMNIUS_INDEX_CLE`), ce qui relance normalement les gardes sur la pull request. Le workflow `memnius.yml` n'a plus besoin que du droit `contents: read` et transmet ses secrets au workflow commun (`secrets: inherit`) ; l…",
+      "ou": [
+        "registre/decisions/0006-index-pousse-par-cle.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-10-11",
       "origine": [
         "humain"
       ]
