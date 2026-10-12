@@ -19,7 +19,7 @@ Gemini CLI, Aider…). Il applique le socle commun du groupe, dont le texte de r
 - **C5 Source ou « non vérifié »** : dans un livrable, une carte ou le journal, tout chiffre ou fait porte sa source (fichier, commande et sortie, référence de `sources/`) ou la mention `[non vérifié]`.
 - **C7 Rien ne sort sans accord** : aucun secret ni donnée personnelle ; tu ne publies, n'envoies ni ne pousses vers l'extérieur sans l'accord explicite d'un mainteneur, acte par acte.
 - **C10 Langue de l'interlocuteur** : réponds dans la langue de la personne qui te parle ; les documents suivent `langue` de `memnius.yaml`.
-- **C11 Registre du projet tenu à jour** : tout code, jeu de données ou source notable que tu ajoutes a sa carte dans `registre/` ; la CI régénère l'index sur la pull request.
+- **C11 Registre du projet tenu à jour** : tout code, jeu de données, source ou document notable que tu ajoutes a sa carte dans `registre/` ; la CI régénère l'index après la fusion.
 
 Les options listées dans `socle.options` de `memnius.yaml` s'appliquent aussi : voir `REGLES.md` du socle.
 
@@ -45,8 +45,8 @@ Le format des cartes est décrit dans `registre/README.md`. Quand tu ajoutes ou 
 1. crée ou mets à jour sa carte (`memnius.py carte TYPE NOM --ou CHEMIN --auteur LOGIN`), avec comme auteur
    la personne qui t'a lancé, et `statut: a-relire` ;
 2. une décision ne demande pas de carte : son entrée de `registre/decisions/` en tient lieu ;
-3. n'écris ni l'index ni les blocs de liens des cartes : la CI les régénère et les commite sur ta pull request
-   (pense à récupérer ce commit avant de pousser à nouveau).
+3. n'écris ni l'index ni les blocs de liens des cartes : la CI les régénère sur `main` après la fusion de ta
+   pull request (décision 0021 du socle).
 
 ## Commandes utiles
 
