@@ -6,7 +6,8 @@
     "decision": 6,
     "code": 1,
     "donnees": 0,
-    "sources": 2
+    "sources": 2,
+    "documents": 1
   },
   "cartes": [
     {
@@ -24,6 +25,9 @@
       "date": "2026-09-26",
       "origine": [
         "humain"
+      ],
+      "remplacee_par": [
+        "0003"
       ]
     },
     {
@@ -171,6 +175,30 @@
       "licence": "CC-BY-SA",
       "statut": "a-relire",
       "url": "https://fr.wikiversity.org/wiki/Optique_ondulatoire"
+    },
+    {
+      "type": "documents",
+      "id": "documents/fentes-young",
+      "fichier": "registre/documents/fentes-young.md",
+      "titre": "Note sur les fentes d'Young",
+      "resume": "Rappelle le montage des fentes d'Young et la formule de l'interfrange i = λD/a, avec un ordre de grandeur pour un pointeur laser rouge.",
+      "ou": [
+        "notes/fentes-young.md"
+      ],
+      "auteurs": [
+        "Pwouette"
+      ],
+      "date": "2026-09-26",
+      "format": "note",
+      "liens": [
+        "code/interfrange",
+        "sources/hecht-optics"
+      ],
+      "mots_cles": [
+        "interferences",
+        "fentes-young"
+      ],
+      "statut": "a-relire"
     }
   ]
 }
